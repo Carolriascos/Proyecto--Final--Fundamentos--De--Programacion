@@ -87,8 +87,7 @@ function agregarCarritoAlLocalStorage(e) {
   arrayDeCarrito.push(id_boton_presionado);
   // Se carga el array nuevamente al localStorage
   localStorage.setItem("arrayCarrito", JSON.stringify(arrayDeCarrito));
-  window.locati+
-  on.href = "carrito.html";
+  window.location.href = "carrito.html";
 }
 
 function agregarFavoritoLocalStorage(e) {

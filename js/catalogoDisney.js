@@ -97,7 +97,7 @@ let arrayBotones = document.querySelectorAll(".ver-producto"); // Variable del b
 //Función creada para colocar dinamicamente los objetos
 
 function cargarProductos() {
-  ArrayPelucheDisney.forEach((producto) => {
+  arrayProductosDisney.forEach((producto) => {
     // se recorre con el ciclo los arrayProductosDisney
     const div = document.createElement("div");
     div.classList.add("imagenparrafo");
@@ -123,7 +123,7 @@ function cargarProductos() {
 }
 cargarProductos();
 
-function presionarBoton() {
+function presionarBotonverproducto() {
   arrayBotones = document.querySelectorAll(".ver-producto"); //Lista de botones
   arrayBotones.forEach((boton) => {
     //agregar a cada boton un evento al hacer click
