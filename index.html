@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estiloslading.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <header>
+
+
+        <figure>
+            <img id="logo" src="./assets/images/logod.png" alt="">
+        </figure>
+
+        <nav id="menu-dos">
+            <ul>
+                <div class="iconods">
+                    <li><a href="/pages/iniciosecion.html"> <i class="fa fa-user" style="font-size:26px;color:dodgerblue"></i>
+                            Sign in</a></li>
+                    <li><a href="/pages/favorito.html"> <i class="fa fa-heart" style="font-size:24px;color:dodgerblue"></i> My
+                            wish list(0)</a>
+                </div>
+                </li>
+                <div class="iconobag">
+                    <li><a href="/pages/carrito.html"><img id="icono" src="./assets/images/icno.png" alt=""><span
+                                class="bag">My bag(3)</span></a>
+                </div>
+                </li>
+            </ul>
+        </nav>
+
+
+
+    </header>
+    <div class="contenedor">
+
+        <div class="columna">
+            <img id="imagenpeluchemickey" src="./assets/images/peluche mickey.png" alt="">
+        </div>
+
+        <div class="columnados">
+            <h1 id="textone">"Bring the magic of <span class="disney">Disney </span> to life with our adorable plush
+                collection!" </h1>
+            <a href="/pages/catalogo-principal.html"><button id="botonone">Adopt a plush</button></a>
+
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <div class="columna">
+            <img id="imagenenosotros" src="./assets/images/nosotros.png " alt="">
+        </div>
+
+        <div class="columnatres">
+
+            <h1 id="titulonosotros">About us</h1>
+            <h2 class="textoseg">We´re a group od dreamers who belive in the magic of Disney! Our goal is to bring joy
+                to every home with
+                adorable, high-quality plushies. Whether you´re a collector
+                or looking for the perfect gift, we´re here to made it special. </h2>
+            <a href="/pages/registro.html"><button id="botonsone">Join the magic</button></a>
+
+        </div>
+
+
+    </div> <!-- contenedor div -->
+
+
+    <div class="carousel">
+        <div class="carousel-images">
+            <img src="./assets/images/lorcana.png" alt="Lorcana Promo">
+            <img src="./assets/images/toy stoy.png de pantalla 2025-03-24 030516.png" alt="Toy Gift Guide">
+            <img src="./assets/images/mickwyfiesta.png" alt="Plush Pals">
+        </div>
+    </div>
+
+    <script>
+        let index = 0;
+        function changeImage() {
+            const images = document.querySelector(".carousel-images");
+            index = (index + 1) % 3;
+            images.style.transform = `translateX(-${index * 100}vw)`;
+        }
+        setInterval(changeImage, 3000);
+    </script>
+
+
+    <div class="contenedordos">
+
+        <div class="columnacuatro">
+            <div class="textotres">
+                <img id="fondoestre" src="./assets/images/fondo estrella diseny.png" estrella diseny.png" alt="">
+                <h1 id="textit">Live the magic with us </h1> <br>
+                <h2 id="textos">Sign into your account and access exclusive discounts, magical collections, and much
+                    more. Sing up in seconds and start the adventure.
+
+                </h2>
+                <a href="/pages/iniciosecion.html"><button id="botondos">Sign in now</button></a>
+
+            </div>
+        </div>
+
+
+        <div class="peluchecontent">
+            <img id="pelucheimag" src="./assets/images/niñofoto.png" alt="">
+        </div>
+
+
+
+    </div><!-- contenedor div -->
+
+
+    <h1 id="contacto">Contact us</h1>
+    <div class="contenedortres">
+
+        <div class="nombreuno">
+            <img id="fotoju" src="./assets/images/FotoF.jpeg" alt="">
+            <div class="textojua">
+                <h2 id="nombre">Juan Felipe Plazas</h2> <br>
+                <h4 id="cursiva">Web developer designer / UI designer</h4> <br>
+
+                <h3 id="textt">"Passionate about creating seamless digital experiences. I handle the technical side to
+                    make sure
+                    everthing runs smoothly."</h3> <br>
+                <h3><i class="fa fa-envelope-square" style="font-size:36px"></i> <span class="icontres">
+                        Email: juanfplazas1@gmail.com</span></h3> <br> <br> <br>
+                <div class="redes">
+                    <br>
+                    <br>
+                    <h3 id="red"><a href="/pages/catalogo-principal.html"><i class="fa fa-linkedin-square"
+                                style="font-size:30px"></a></i><span class="iconcuatro"> LinkedIn</h3> <br></span>
+                    <br>
+                    <h3 id="red"> <a href="/pages/iniciosecion.html"><i class="fa fa-instagram"
+                                style="font-size:30px"></a></i><span class="iconcuatro">
+                            Instagram</span></h3><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="nombredos">
+            <img id="fotoca" src="./assets/images/fotoC.jpg" alt="">
+            <div class="textocar">
+
+                <h2>Ivonne Carolina Riascos</h2> <br>
+                <h4 id="cursiva">Web developer designer / UI designer</h4> <br>
+
+                <h3 id="textt">"Passionate about creating seamless digital experiences. I handle the technical side to
+                    make sure
+                    everthing runs smoothly."</h3> <br>
+
+
+                <h3><i class="fa fa-envelope-square" style="font-size:36px"></i><span class="icontres">
+                        Email: juanfplazas1@gmail.com</h3></span> <br> <br>
+                <br>
+
+
+                <div class="redes">
+
+                    <br>
+                    <h3><a href=""><i class="fa fa-linkedin-square" style="font-size:30px"></a></i> <span
+                            class="iconcuatro">LinkedIn</h3></span> <br>
+                    <br>
+                    <h3><a href=""><i class="fa fa-instagram" style="font-size:30px"></a></i> <span
+                            class="iconcuatro">Instagram</h3></span> <br>
+                </div>
+            </div>
+
+        </div><!-- contenedor div -->
+
+
+
+
+
+
+</body>
+
+</html>

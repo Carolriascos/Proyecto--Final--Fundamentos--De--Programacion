@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+
+
+        <figure>
+            <img id="logo" src="../assets/images/logod.png" alt="">
+        </figure>
+
+        <nav id="menu-dos">
+            <ul>
+                <div class="iconods">
+                    <li><a href="iniciosecion.html"> <i class="fa fa-user" style="font-size:26px;color:dodgerblue"></i>
+                            Juan</a></li>
+                    <li><a href="favorito.html"> <i class="fa fa-heart" style="font-size:24px;color:dodgerblue"></i> My
+                            wish list(1)</a>
+                </div>
+                </li>
+                <div class="iconobag">
+                    <li><a href="carrito.html"><img id="icono" src="../assets/images/icno.png" alt=""><span
+                                class="bag">My bag(3)</span></a>
+                </div>
+                </li>
+            </ul>
+        </nav>
+
+
+
+    </header>
+    <h1 id="titulo">Select a category</h1>
+    <div class="container">
+        <form class="search">
+            <button type="submit"> <i class="fa fa-search" style="font-size:36px; color: #0257B4"></i></button>
+
+            <input type="text" placeholder="Search for an item, character name, movie, TV show or category">
+        </form>
+    </div>
+    <div class="categoria">
+        <div>
+            <img class="categopelu" src="../assets/images/disney.png" alt="">
+            <p class="texto">Disney</p>
+            <a href="catalogo-principal.html"><button id="botonuno">View</button></a>
+        </div>
+        <div>
+            <img class="categopelu" src="../assets/images/marvel.png" alt="">
+            <p class="texto">Marvel </p>
+            <a href="marvel.html"><button id="botonuno">View</button></a>
+
+        </div>
+
+        <div>
+            <img class="categopelu" src="../assets/images/pixar.png" alt="">
+            <p class="texto">Pixar</p>
+            <a href="pixar.html"><button id="botonuno">View</button></a>
+
+        </div>
+        <div>
+            <img class="categopelu" src="../assets/images/starwars.png" alt="">
+            <p class="texto">Star Wars </p>
+            <a href="star.html"><button id="botonuno">View</button></a>
+        </div>
+    </div>
+
+    <div id="catalogoimg" class="catalogoimg">
+<!--         <Esto se va a rellenar con JS>>
+ -->        
+
+    </div>
+    <script src="../js/catalogoDisney.js"></script>
+
+</body>
+
+</html>

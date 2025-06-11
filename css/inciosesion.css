@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    max-width: 900px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 80vh;
+}
+
+.imageness {
+    flex: 1;
+}
+
+.imageness img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form-container {
+    width: 400px;
+    padding: 40px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+img[alt="disney-logo"] {
+    width: 150px;
+    margin: 10px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+p {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+
+p a {
+    color: #0074E4;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    outline: none;
+    background-color: #cccccc;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0074E4;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: #000 0 10px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 90%;
+        height: auto;/
+    }
+
+    .imageness {
+        width: 100%;
+        height: 300px;
+    }
+
+    .form-container {
+        width: 100%;
+        padding: 20px;
+    }
+}

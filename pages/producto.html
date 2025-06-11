@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/producto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img id="logo" src="../assets/images/logod.png" alt="">
+        </figure>
+
+        <nav id="menu-dos">
+            <ul>
+                <div class="iconods">
+                    <li><a href="iniciosecion.html"> <i class="fa fa-user" style="font-size:26px;color:dodgerblue"></i>
+                            Juan</a></li>
+                    <li><a href="favorito.html"> <i class="fa fa-heart" style="font-size:24px;color:dodgerblue"></i> My
+                            wish list(1)</a>
+                </div>
+                </li>
+                <div class="iconobag">
+                    <li><a href="carrito.html"><img id="icono" src="../assets/images/icno.png" alt=""><span
+                                class="bag">My bag(3)</span></a>
+                </div>
+                </li>
+            </ul>
+        </nav>
+
+
+
+    </header>
+    <div id="contenedor" class="contenedor">
+    </div>
+    <!-- 
+        <div class="columna">
+            <img id="imagenpeluchemickey" src="assets/images/fotodetalle.png" alt="">
+        </div>
+
+        <div class="columnados">
+            <h1 class="tex"> Mickey Mouse plush Medium 13" </h1>
+            <h3>$22.99</h3>
+                <div class="border">
+                <br>
+                <br>
+                <h2>Quanty</h2> <br>
+               </div>
+
+            <div class="contadorr">
+
+                <button onclick="disminuir()">−</button>
+                <p><span id="cantidad">3</span></p>
+
+                <button id="bton" onclick="incremento()">+</button>
+            </div>
+            <div class="borde">
+            </div>
+
+            <p id="paf">Our leader of the club is sure to be a swell addition to any
+                clubhouse. Soft plush Mickey will keep you smilling through the
+                day, rain or shine. See ya real soon!
+            </p>
+
+            <a href="carrito.html"><button class="boton">Shop now</button></a><a href="favorito.html"><i id="icos"
+                    class="fa fa-heart" style="font-size:36px;color:rgb(40, 108, 255)"></a></i>
+
+        </div>
+ --> <!-- </div> -->
+    <script>
+        let valor = document.getElementById("cantidad").innerText;
+
+        function incremento() {
+            valor++;
+            cambiarvalor();
+
+        }
+
+        function disminuir() {
+            if (valor > 1) {
+                valor--;
+            }
+            cambiarvalor();
+        }
+
+        function cambiarvalor() {
+            document.getElementById("cantidad").innerText = valor;
+        }
+    </script>
+    <script src="../js/producto.js"></script>
+
+
+</body>
+
+</html>

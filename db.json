@@ -1,0 +1,97 @@
+{
+  "peluches": [
+    {
+      "id": 1,
+      "nombre": "Mickey Mouse plus - Medium 13",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_778056-MCO73220592662_122023-F.webp",
+      "precio": "32.99"
+    },
+    {
+      "id": 2,
+      "nombre": "Minnie Mouse plus - Medium 13",
+      "imagen": "https://exitocol.vtexassets.com/arquivos/ids/25733588/peluche-muneco-minnie-mouse-25cm-grande-suave-juguete-rosa.jpg?v=638695517790100000",
+      "precio": "27.99"
+    },
+    {
+      "id": 3,
+      "nombre": "Pluto plus - Medium 13",
+      "imagen": "https://cdn.s7.shopdisney.eu/is/image/DisneyStoreES/412302810872-1?fmt=jpeg&qlt=90&wid=1030&hei=1030",
+      "precio": "22.99"
+    },
+    {
+      "id": 4,
+      "nombre": "Donald plus - Medium 13",
+      "imagen": "https://cdn.s7.shopdisney.eu/is/image/DisneyStoreES/412312819629-1?fmt=jpeg&qlt=90&wid=1030&hei=1030",
+      "precio": "32.99"
+    },
+    {
+      "id": 5,
+      "nombre": "Daisy plus - Medium 13",
+      "imagen": "https://cdn.s7.shopdisney.eu/is/image/DisneyStoreES/412312819704-4?fmt=jpeg&qlt=90&wid=1030&hei=1030",
+      "precio": "22.99"
+    },
+
+    {
+      "id": 6,
+      "nombre": "Goofy plus - Medium 13",
+      "imagen": "https://cdn.s7.shopdisney.eu/is/image/DisneyStoreES/412312819544-4?fmt=jpeg&qlt=90&wid=1030&hei=1030",
+      "precio": "22.99"
+    },
+    {
+      "id": 7,
+      "nombre": "Simba- Small 7",
+      "imagen": "https://cdn.s7.shopdisney.eu/is/image/DisneyStoreES/412313295484-2?fmt=jpeg&qlt=90&wid=1030&hei=1030",
+      "precio": "32.99"
+    },
+    {
+      "id": 8,
+      "nombre": "Nala plus - Small 7",
+      "imagen": "https://cdn.s7.shopdisney.eu/is/image/DisneyStoreES/412313299772-1?fmt=jpeg&qlt=90&wid=1030&hei=1030",
+      "precio": "22.99"
+    },
+    {
+      "id": 9,
+      "nombre": "Rapunzel plus - Medium 15",
+      "imagen": "https://cdn.s7.shopdisney.eu/is/image/DisneyStoreES/412333628040?fmt=jpeg&qlt=90&wid=1030&hei=1030",
+      "precio": "22.99"
+    },
+    {
+      "id": 10,
+      "nombre": "Dumbo plus - Medium 10",
+      "imagen": "https://cdn.s7.shopdisney.eu/is/image/DisneyStoreES/412333628040?fmt=jpeg&qlt=90&wid=1030&hei=1030",
+      "precio": "22.99"
+    },
+    {
+      "id": 11,
+      "nombre": "Tod plus - Medium 15",
+      "imagen": "https://cdn.s7.shopdisney.eu/is/image/DisneyStoreES/412333628040?fmt=jpeg&qlt=90&wid=1030&hei=1030",
+      "precio": "32.99"
+    },
+    {
+      "id": 12,
+      "nombre": "Peter Pan - Medium 15",
+      "imagen": "https://cdn.s7.shopdisney.eu/is/image/DisneyStoreES/415197324288-1?fmt=jpeg&qlt=90&wid=1030&hei=1030",
+      "precio": "32.99"
+    },
+    {
+      "id": 13,
+      "nombre": "Pua Moana plus - Small 7",
+      "imagen": "https://cdn.s7.shopdisney.eu/is/image/DisneyStoreES/415197324288-1?fmt=jpeg&qlt=90&wid=1030&hei=1030",
+      "precio": "22.99"
+    },
+
+    {
+      "id": 14,
+      "nombre": "Moana Plus plus - Medium 13",
+      "imagen": "https://cdn.s7.shopdisney.eu/is/image/DisneyStoreES/415198189879?fmt=jpeg&qlt=90&wid=1030&hei=1030",
+      "precio": "19.99"
+    },
+
+    {
+      "id": 15,
+      "nombre": "Olaf plus - Small 7",
+      "imagen": "https://cdn.s7.shopdisney.eu/is/image/DisneyStoreES/415157871333-1?fmt=jpeg&qlt=90&wid=1030&hei=1030",
+      "precio": "19.99"
+    }
+  ]
+}
