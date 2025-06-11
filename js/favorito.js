@@ -11,10 +11,10 @@ function cargarCarrito() {
   const arrayProductosPixar = JSON.parse(localStorage.getItem("arrayProductosPixar"));
   const arrayProductoStarWars = JSON.parse(localStorage.getItem("arrayProductoStarWars"));
 
-  const todosLosPeluches = arrayProductosDisney.concat(
-    arrayProductosMarvel,
-    arrayProductosPixar,
-    arrayProductoStarWars
+  const todosLosPeluches = (arrayProductosDisney || []).concat(
+    arrayProductosMarvel || [],
+    arrayProductosPixar || [],
+    arrayProductoStarWars || []
   );
 
   //Se obtienen el array donde se encuentran los elementos del carrito en el localStorage
@@ -23,7 +23,7 @@ function cargarCarrito() {
   let arreglo_favoritos_final = [];
 
   for (let peluche of todosLosPeluches) {
-    if (peluche !== null && arrayFavoritos.includes(peluche.id)) {
+    if (peluche !== null && arrayFavoritos.includes(peluche.id.toString())) {
       arreglo_favoritos_final.push(peluche);
     }
   }
@@ -36,7 +36,7 @@ function cargarCarrito() {
     div.classList.add("product-card");
     div.innerHTML = `
         <img src="${producto.imagen}" class="product-image">
-            <h3>${producto.titulo}</h3>
+            <h3>${producto.nombre}</h3>
             <p class="price">${producto.precio}</p>
             <a href="carrito.html"><button class="shop-button">Shop now</button></a>
 `;

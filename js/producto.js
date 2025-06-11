@@ -17,7 +17,7 @@ function Cargar_Pagina_Detalle() {
 </div>
 
 <div class="columnados">
-    <h1 class="tex">${datospeluche.titulo}</h1>
+    <h1 class="tex">${datospeluche.nombre}</h1>
     <h3>${datospeluche.precio}</h3>
 
     <div class="border">

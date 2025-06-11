@@ -22,7 +22,7 @@ function cargarCarrito() {
   let carritoFinal = [];
 
   for (let peluche of todosLosPeluches) {
-    if (peluche !== null && arrayCarrito.includes(peluche.id)) {
+    if (peluche !== null && arrayCarrito.includes(peluche.id.toString())) {
       carritoFinal.push(peluche);
     }
   }
@@ -38,7 +38,7 @@ function cargarCarrito() {
         <img src="${producto.imagen}" alt="" />
       </div>
       <div class="producto-info">
-        <h2>${producto.titulo}</h2>
+        <h2>${producto.nombre}</h2>
         <p class="cantidad">
           Quantity: 1 at <span class="precio">${producto.precio}</span>
         </p>
