@@ -5,9 +5,8 @@ fetch("https://raw.githubusercontent.com/Carolriascos/Api-Disney/Reto-3/db.json"
   })
   .then((data) => {
     ArrayPelucheDisney = data.peluches;
-
     const contenedorarrayProductos = document.querySelector("#catalogoimg"); // Se estable el contenedor donde se crearan los elementos dinamicos
-    let arrayBotones = document.querySelectorAll(".ver-producto"); // Variable del boton de shop now de localstorage.
+    let arrayBotones = []; // Variable del boton de shop now de localstorage.
 
     //Función creada para colocar dinamicamente los objetos
 

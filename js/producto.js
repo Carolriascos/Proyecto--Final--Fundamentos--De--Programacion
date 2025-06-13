@@ -1,7 +1,7 @@
 const contenedorDetalle = document.querySelector("#contenedor"); // se trae el contenedor para cargar la pagina producto //
 
-let arrayBotonesFavoritos = document.querySelectorAll(".agregar-a-favorito"); // Arreglo de botones.
-let arrayBotonesCarrito = document.querySelectorAll(".agregar-a-carrito"); // Arreglo de botones.
+let arrayBotonesFavoritos = []; // Arreglo de botones.
+let arrayBotonesCarrito = []; // Arreglo de botones.
 
 // Función actualizar pagina detalle.
 function Cargar_Pagina_Detalle() {

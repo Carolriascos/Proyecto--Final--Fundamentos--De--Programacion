@@ -1,7 +1,6 @@
 const contenedorNumeroItem = document.querySelector("#container_numero_items"); // Se estable el contenedor donde se crearan los elementos dinamicos
 
-const contenedorArrayFavoritos = document.querySelector("#container-carrito"); // Se estable el contenedor donde se crearan los elementos dinamicos
-
+const contenedorArrayFavoritos = document.querySelector("#container-carrito");
 //Función creada para colocar dinamicamente los objetos del carrito
 
 function cargarCarrito() {
