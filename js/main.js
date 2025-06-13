@@ -61,7 +61,7 @@ if (registerForm && document.title.includes("Sign in")) {
     if (user) {
       localStorage.setItem("currentUser", JSON.stringify(user));
       alert(`Welcome ${user.firstName}!`);
-      window.location.href = "perfil.html";
+      window.location.href = "profile.html";
     } else {
       alert("User not found. Please register.");
     }

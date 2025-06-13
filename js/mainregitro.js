@@ -18,12 +18,12 @@ if (registerForm && document.title.includes("Registration")) {
   registerForm.addEventListener("submit", (e) => {
     e.preventDefault();
     const inputs = registerForm.querySelectorAll("input");
-    const firstName = inputs[0].value.trim();
-    const lastName = inputs[1].value.trim();
-    const password = inputs[2].value;
-    const confirmPassword = inputs[3].value;
-    const birthdate = inputs[4].value;
-    const email = document.querySelector("p strong")?.innerText || "";
+    const email = inputs[0].value.trim();
+    const firstName = inputs[1].value.trim();
+    const lastName = inputs[2].value.trim();
+    const password = inputs[3].value;
+    const confirmPassword = inputs[4].value;
+    const birthdate = inputs[5].value;
 
     if (!firstName || !lastName || !password || !confirmPassword || !birthdate || !email) {
       alert("Please complete all fields.");
@@ -60,7 +60,7 @@ if (registerForm && document.title.includes("Sign in")) {
     if (user) {
       localStorage.setItem("currentUser", JSON.stringify(user));
       alert(`Welcome ${user.firstName}!`);
-      window.location.href = "perfil.html";
+      window.location.href = "profile.html";
     } else {
       alert("User not found. Please register.");
     }

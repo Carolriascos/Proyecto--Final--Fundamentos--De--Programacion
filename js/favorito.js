@@ -27,7 +27,6 @@ function cargarCarrito() {
     }
   }
 
-  let totalCarrito = 0.0;
   console.log(arreglo_favoritos_final);
 
   arreglo_favoritos_final.forEach((producto) => {
@@ -40,7 +39,6 @@ function cargarCarrito() {
             <a href="carrito.html"><button class="shop-button">Shop now</button></a>
 `;
     contenedorArrayFavoritos.append(div);
-    totalCarrito += producto.precio;
   });
 
   const div_numero_item = document.createElement("div");
