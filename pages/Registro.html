@@ -1,43 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Disney Registration</title>
-    <link rel="stylesheet" href="../css/registro.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" />
-  </head>
 
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney Registration</title>
+    <link rel="stylesheet" href="../css/registro.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+
+</head>
+
+<body>
     <div class="container">
-      <div class="imagenes">
-        <img src="../assets/images/niñopeluche.png" alt="foto banner 1" />
-      </div>
-      <div class="form-container">
-        <h1>Register</h1>
-        <p>Create your account and get special discounts and exclusive surprises</p>
-        <img src="../assets/images/logo para el regustro.png" alt="My Disney Account" class="disney-logo" />
-        <p>Is <strong>example12345@gmail.com</strong> your correct email address? <a href="metodo.html">edit it</a></p>
-        <p>Already have an account? <a href="iniciosecion.html">Sign in</a></p>
-        <form>
-          <input type="text" placeholder="First name" />
-          <input type="text" placeholder="Last name" />
-          <input type="password" placeholder="Choose a password" />
-          <input type="password" placeholder="Verify password" />
-          <input type="date" placeholder="Birthdate" />
-          <label>
-            <input type="checkbox" /> Yes! I would like to receive updates, special offers, and other information from
-            Disney Plush Store and The Walt Disney Family of Companies.
-          </label>
-          <label>
-            <input type="checkbox" /> I acknowledge that I have read the Privacy Policy and authorize The Walt Disney
-            Company S.A. or other applicable data controller to use my data as described in the Privacy Policy.
-          </label>
-          <button type="submit">Agree and continue</button>
-          <script src="../js/main.js" defer></script>
-        </form>
-      </div>
+        <div class="imagenes">
+            <img src="../assets/images/niñopeluche.png" alt="foto banner 1">
+        </div>
+        <div class="form-container">
+            <h1>Register</h1>
+            <p>Create your account and get special discounts and exclusive surprises</p>
+            <img src="../assets/images/logo para el regustro.png" alt="My Disney Account" class="disney-logo">
+            <p>Is <strong>example12345@gmail.com</strong> your correct email address? <a href="metodo.html">edit it</a>
+            </p>
+            <p>Already have an account? <a href="iniciosecion.html">Sign in</a></p>
+            <form>
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+                <input type="password" placeholder="Choose a password">
+                <input type="password" placeholder="Verify password">
+                <input type="date" placeholder="Birthdate">
+                <label>
+                    <input type="checkbox"> Yes! I would like to receive updates, special offers, and other information
+                    from Disney Plush Store and The Walt Disney Family of Companies.
+                </label>
+                <label>
+                    <input type="checkbox"> I acknowledge that I have read the Privacy Policy and authorize The Walt
+                    Disney Company S.A. or other applicable data controller to use my data as described in the Privacy
+                    Policy.
+                    <div id="saludoUsuario"></div>
+                </label>
+                <button type="submit">Agree and continue</button>
+                <script src="../js/mainregitro.js" defer></script>
+
+            </form>
+        </div>
     </div>
-  </body>
+</body>
+
 </html>
 ```
+<script>
+    // Function to greet the user
+    function greetUser() {
+        const userName = "User"; // You can replace this with dynamic data if needed
+        const greetingElement = document.getElementById("saludoUsuario");
+        greetingElement.textContent = `Hello, ${userName}! Welcome to Disney Plush Store.`;
+    }
+
+    // Call the function to display the greeting
+    greetUser();
